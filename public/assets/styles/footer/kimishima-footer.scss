@@ -1,0 +1,51 @@
+footer {
+    width: 100%;
+    display: block;
+    background: #545454;
+    opacity: 0.9;
+    color: #FFFFFF;
+    line-height: 40px;
+    .ikc {
+        
+        &__footer-container {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            max-width: 1360px;
+            padding: 40px;
+            margin: 0 auto;
+        }
+        
+        &__infos {
+            width: 33.3%;
+        }
+        
+        &__site-map {
+            width: 33.3%;
+        }
+
+        &__social {
+            width: 33.3%;
+            .banner-box {
+                img {
+                    max-width: 40px;
+                    max-height: 40px;
+                }
+
+                a {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 10px;
+                    color: #FFFFFF;
+                    text-decoration: none;
+                }
+
+                span {
+                    margin-left: 10px;
+                }
+            }
+        }
+        
+    }
+}
