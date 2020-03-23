@@ -1,4 +1,10 @@
 main {
     display: flex;
     align-items: center;
+    max-width: 1240px;
+    padding: 10px 40px;
+    margin: 0 auto;
 }
+
+//Components content
+@import './projects/projects.scss';

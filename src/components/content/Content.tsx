@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Projects from './microComponents/Projects';
 
 interface Icontent {
     render?(): object;
@@ -7,8 +8,8 @@ interface Icontent {
 class Content extends Component<Icontent> {
     public render(): object {
         return (
-            <main>
-                
+            <main className='ikc__content'>
+                <Projects />
             </main>
         )
     }
